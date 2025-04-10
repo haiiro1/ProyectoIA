@@ -20,9 +20,9 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import seaborn as sns
 
 # Rutas locales en el PC
-ruta_carpeta_IA = 'PROYECTO_SIC/Voces IA'
-ruta_carpeta_reales = 'PROYECTO_SIC/Voces reales'
-ruta_carpeta_combinadas = 'PROYECTO_SIC/Voces combinadas/clips'
+ruta_carpeta_IA = '../PROYECTO_SIC/Voces IA'
+ruta_carpeta_reales = '../PROYECTO_SIC/Voces reales'
+ruta_carpeta_combinadas = '../PROYECTO_SIC/Voces combinadas/clips'
 
 # Función para convertir un archivo de audio en un espectrograma y guardarlo como imagen
 def convertir_y_guardar_espectrograma(archivo_audio, nombre_salida, carpeta_espectro):
